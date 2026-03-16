@@ -1,0 +1,284 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #000000;
+    width: 340px;
+    margin: 0.5rem;
+}
+
+a {
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 80px;
+    padding: 0.5rem, 0.75rem;
+    margin: 0.25rem;
+}
+
+.nav-bar {
+    line-height: 2rem;
+    opacity: 0.7;
+    padding: 0.25rem;
+    margin-left: 1rem;
+}
+
+.nav-bar a {
+    font-size: 1rem;
+}
+
+.nav-bar i {
+    margin-right: 1.25rem;
+}
+
+.nav :hover {
+    opacity: 1;
+}
+
+.main-cont {
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: scroll;
+}
+
+.music-player {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+}
+
+.side-library {
+    background-color: #121212;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    height: 100vh;
+}
+
+.library {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.7;
+    padding: 0.5rem;
+}
+
+.library img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.library:hover {
+    opacity: 1;
+}
+
+.library-div {
+    background-color: #232323;
+    border-radius: 1rem;
+    padding: 0.05rem;
+    margin: 0.25rem;
+}
+
+.library-div .p1 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 0.5rem;
+}
+
+.library-div .p2 {
+    font-size: 0.75rem;
+    opacity: 0.8;
+    font-weight: 400;
+    margin-left: 0.75rem;
+}
+
+.library-div button {
+    border-radius: 1rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    border: none;
+    margin: 0.5rem;
+}
+
+.sticky-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: #121212;
+    padding: 0.75rem;
+    z-index: 10;
+}
+
+.sticky-but button {
+    border-radius: 1rem;
+    font-weight: 700;
+    padding: 0.35rem;
+    border: none;
+    margin-right: 0.75rem;
+
+}
+
+.sticky-but .dark {
+    color: white;
+    background-color: black;
+}
+
+@media(max-width:1000px) {
+    .hide {
+        display: none;
+    }
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0.5rem;
+    margin-left: 1rem;
+}
+
+.card {
+    background-color: #232323;
+    width: 150px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.card:hover {
+    background-color: #2a2a2a;
+    box-shadow: 1rem 1rem 2rem #000000;
+    width: 152px;
+    transition: ease-out 0.2s;
+}
+
+.card-contanier {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.card-heading {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0.5rem;
+}
+
+.card-details {
+    font-size: 0.75rem;
+    font-weight: 400;
+    opacity: 0.8;
+    margin: 0.5rem;
+}
+
+.music-player {
+    display: flex;
+}
+
+.mp1 {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mp-1-img {
+    width: 3rem;
+    margin-left: 2rem;
+}
+
+.mp-1-img img {
+    width: 100%;
+}
+
+.mp-1-p1 {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.mp-1-p2 {
+    font-size: 0.7rem;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-top: 0.25rem;
+}
+
+.mp2 {
+    width: 50%;
+}
+
+.mp3 {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mp3 i {
+    margin-right: 0.75rem;
+    opacity: 0.6;
+}
+
+.mp2 img {
+    width: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.25rem;
+}
+
+.mp-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mp-icon img {
+    opacity: 0.6;
+}
+
+.mp-icon img:hover {
+    opacity: 1;
+}
+
+
+
+.mp-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.25rem;
+}
+
+.mp-bar .range {
+    margin: 0 1rem 0 1rem;
+}
