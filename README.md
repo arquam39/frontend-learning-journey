@@ -7,7 +7,7 @@ This repository contains my practice work while learning **HTML, CSS, and JavaSc
 ---
 
 ## 📚 Topics Covered
-
+ 
 * HTML Fundamentals
 * CSS Styling
 * Responsive Design
