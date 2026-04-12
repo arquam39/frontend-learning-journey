@@ -4,7 +4,7 @@ Welcome to my **Frontend Development Learning Journey** repository.
 
 This repository contains my practice work while learning **HTML, CSS, and JavaScript**, along with small frontend projects to improve my web development skills.
 
----
+--- 
 
 ## 📚 Topics Covered
  
